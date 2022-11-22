@@ -19,9 +19,9 @@ public class RandomNumberGenerator {
         Random random = new Random(); // create Random instance
         int i; // set i variable
 
-        // As long as there are less than 10 numbers, generate a random number
+        // As long as there are less than 10 random numbers, generate a random number
         for (i = 0; i < 10; i++) {
-            // Possible numbers range from 1 to 100; display
+            // Possible numbers range from 1 to 100; display the loop results
             System.out.printf("%d ", random.nextInt(100));
         }
     }
